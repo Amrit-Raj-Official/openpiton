@@ -116,7 +116,7 @@ Check out the sections below to see how to run the RISC-V tests or simple bare-m
 In addition to the OpenPiton setup described above, you have to adapt the paths in the `ariane_setup.sh` script to match with your installation (we support Questasim, VCS and Verilator at the moment). Source this script from the OpenPiton root folder and build the RISC-V tools with `ariane_build_tools.sh` if you are running this for the first time:
 1. ```cd $PITON_ROOT/```
 2. ```source piton/ariane_setup.sh```
-3. ```piton/ariane_build_tools.sh```
+3. ```source piton/ariane_build_tools.sh```
 
 Step 3. will then download and compile the RISC-V toolchain, the assembly tests and Verilator.
 
